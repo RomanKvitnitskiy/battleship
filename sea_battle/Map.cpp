@@ -30,7 +30,7 @@ void show(Map& first, Map& second)
 			if (second.map[i][j] == 0)
 				cout << "  ";
 			else if (second.map[i][j] == 1)
-				cout << " #";
+				cout << "  ";
 			else if (second.map[i][j] == 2)
 				cout << " X";
 			else if (second.map[i][j] == 3)
